@@ -1,0 +1,91 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:  "Nunito", sans-serif;
+}
+
+span,p,a{
+    font-family:"Poppins", sans-serif;;
+}
+h1 {
+    font-size: 3.815rem;
+}	
+
+h2{
+    font-size:3.052rem;
+}
+
+h3{
+   font-size: 2.441rem;
+}
+
+h4{
+   font-size: 1.953rem;
+}
+
+h5{
+   font-size: 1.563rem;
+}
+
+h6{
+   font-size: 1.25rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+small{
+    font-size: 0.8rem;
+}
+
+
+.bio{
+    font-size:  1.563rem;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+
+.card-text{
+    font-size:  1.563rem;
+    padding-top: 1rem;
+}
+
+.card-image{
+    max-width: 400px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 1200px;
+    width:100%;
+}
+.card-3, .card-header{
+   max-width: 1200px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.list01{
+    list-style: none;
+    font-size:  1.563rem;
+}
+.home{
+    margin-top: 400px;
+    text-align: center;
+}
+.formsubmit{
+    max-width: 700px;
+    width: 100%;
+
+}
